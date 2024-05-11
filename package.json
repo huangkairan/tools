@@ -14,6 +14,7 @@
     "@codemirror/lang-json": "^6.0.1",
     "@uiw/react-codemirror": "^4.21.25",
     "antd": "^5.16.0",
+    "axios": "^1.6.8",
     "next": "14.1.4",
     "react": "^18",
     "react-dom": "^18",
