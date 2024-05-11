@@ -2,7 +2,7 @@
 import { Button, Input } from "antd";
 import axios from "axios";
 import { useState } from "react";
-export default () => {
+export default function Address2Location() {
   const [location, setLocation] = useState<{ x: number; y: number }>({
     x: 0,
     y: 0,
@@ -38,4 +38,4 @@ export default () => {
       </section>
     </main>
   );
-};
+}
